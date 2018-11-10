@@ -1,0 +1,103 @@
+.header1 {
+  font-family: "Computer Modern", sans-serif;
+  color: rgb(6,41,88);
+  text-align: left;
+  font-size: 200%;
+  font-weight: normal;
+}
+
+h1 {
+  font-family: "Computer Modern", sans-serif;
+  color: rgb(6,41,88);
+  text-align: left;
+  font-size: 160%;
+  font-weight: bold;
+}
+
+p {
+  font-family: "Computer Modern", sans-serif;
+  color: black;
+  text-align: left;
+  font-size: 100%;
+  font-weight: normal;
+}
+
+.picText1 {
+  font-family: "Computer Modern", sans-serif;
+  color: rgb(6,41,88);
+  text-align: center;
+  font-weight: bold;
+  font-size: 120%;
+}
+
+.picText2 {
+  font-family: "Computer Modern", sans-serif;
+  color: gray;
+  text-align: center;
+  font-weight: normal;
+  font-size: 90%;
+}
+
+.banner {
+  font-family: "Computer Modern", sans-serif;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(6,41,88);
+}
+
+li a {
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+}
+
+li b {
+    font-family: "Computer Modern", sans-serif;
+    float: left;
+    display: block;
+    color: #e6e6e6;
+    text-align: center;
+    padding: 12px 50px;
+    text-decoration: none;
+    font-size: 110%;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #0052cc;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.column1 {
+    float: left;
+    width: 40%;
+    padding: 10px;
+}
+
+.column2 {
+    float: left;
+    width: 60%;
+    padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
