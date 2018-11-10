@@ -82,13 +82,13 @@ li a:hover:not(.active) {
     box-sizing: border-box;
 }
 
-.column1 {
+.column40 {
     float: left;
     width: 40%;
     padding: 10px;
 }
 
-.column2 {
+.column60 {
     float: left;
     width: 60%;
     padding: 10px;
