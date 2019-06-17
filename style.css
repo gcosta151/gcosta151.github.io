@@ -133,11 +133,11 @@ pcoll {
   color: white;
   text-align: left;
   padding-left: 10%;
-  padding-right: 25%;
+  padding-right: 22.5%;
   padding-top: 15px;
   padding-bottom: 15px;
   text-decoration: none;
-  font-size: 1.75em;
+  font-size: 1.5em;
 }
 
 /* Style the links inside the navigation bar */
@@ -146,7 +146,7 @@ pcoll {
   float: left;
   color: white;
   text-align: center;
-  padding: 15px 25px;
+  padding: 15px 22.5px;
   display: block;
   text-decoration: none;
   font-size: 1.5em;
