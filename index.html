@@ -5,55 +5,239 @@
 <!--  HEAD START -->
 <!-- ######################################################################## -->
 <head>
-
 <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="author" content="Giorgio Costa">
   <meta name="description" content="PhD Candidate">
   
-    <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/styles.css">
   
-<!-- ######################################################################## -->
+<!-- ###################################################################### -->
 <!--  HEAD END -->
-<!-- ######################################################################## -->
+<!-- ###################################################################### -->
 </head>
-  
-<!-- ######################################################################## -->
-<!--  BODY START -->
-<!-- ######################################################################## -->
+
 <body>
-
-  <div>
-  <ul class="banner">
-    <li><b> GIORGIO COSTA </b>
-    <li><a href="contact.html">Contact</a></li>
-    <li><a href="gcostaCV.pdf">CV</a></li>
-    <li><a href="teaching.html">Teaching</a></li>
-    <li><a href="publications.html">Publications</a></li>
-    <li><a class="active" href="index.html">Home</a></li>
-  </ul>
-  </div>
-  <p style = "margin-bottom: 60px"> </p>
+<!-- ###################################################################### -->
+<!--  BANNER -->
+<!-- ###################################################################### -->
+  <div class="topnav">
+    
+    <a2> GIORGIO COSTA </a2>
+    <a href="#">Home</a>
+    <a href="#Publications">Publications</a>
+    <a href="#Teaching">Teaching</a></li>
+    <a href="#gcosta.pdf">CV</a>
+    <a href="#Contact">Contact</a>
   
+  </div>
+    
+  <p style = "margin-bottom: 120px"> </p>
+
+  <div id="container">
+<!-- ###################################################################### -->
+<!--  HOME (ABOUT ME) -->
+<!-- ###################################################################### -->
+    <div class="row">
+      <div class="column40">
+    
+        <img src="GCostaPic.jpg" alt="GCosta Profile Pic" class="center">
+        <p class=picText1> Giorgio Costa</p>
+        <p class=picText2> PhD Candidate, Operations Research <br>Department of Mechanical and Industrial Engineering<br> University of Toronto</p>
+    
+      </div>
+      <div class="column60">
+        
+        <h1>About Me</h1>
+        <p>I am a PhD candidate at the <a href="https://www.mie.utoronto.ca/" target="_blank">Department of Mechanical and Industrial Engineering</a>  at the University of Toronto. My academic advisor is <a href="http://www.mie.utoronto.ca/faculty/rkwon" target="_blank">Roy H. Kwon</a> , and my research is focused on robust optimization in asset allocation problems.</p>
+        <p> I am an experienced quantitative researcher with a demonstrated history in the financial industry. My research interests include convex optimization applications in finance and risk management, as well as convex approximations to non-convex problems.</p>
+        <p>I also work as a lecturer at the University of Toronto, teaching courses in financial engineering and optimization.</p>
+        
+      </div>
+  </div>
+  <a id="Publications">
+  <hr/>
+<!-- ###################################################################### -->
+<!--  PUBLICATIONS -->
+<!-- ###################################################################### -->
   <div class="row">
-  <div class="column40">
-    <img src="GCostaPic.png" alt="GCosta Profile Pic" style="width:200px;height:200px;">
+    <div class="column40">
+      <p style = "margin-bottom: 40px"> </p>
+      <h1 class="header1">Publications</h1>
+    </div>
+    <div class="column60">
+     
+      <!------------------------------------------------------------->
+      <!-- Journal publications -->
+      <!------------------------------------------------------------->
+      <h1>Journal publications</h1>
+      
+      <ul>
+      
+        <!-- RS Risk Parity -->
+        <li><p>Costa,  G.  and  Kwon,  R.  H.  (2018). <a href="https://www.tandfonline.com/doi/full/10.1080/14697688.2018.1486036" target="_blank">Risk  parity  portfolio  optimization  under  a  markov  regime-switching framework</a>. <i>Quantitative Finance</i>, 19(3), 453-471.</p></li>
 
-    <p class=picText1> Giorgio Costa</p>
-    <p class=picText2> PhD Candidate <br> Operations Research,<br> University of Toronto</p>
+        <button class="collapsible"><b>Abstract</b></button>
+        <div class="content">
+          <!-- ABSTRACT -->
+          <pcoll>We formulate and solve a risk parity optimization problem under a Markov regime-switching framework to improve parameter estimation and to systematically mitigate the sensitivity of optimal portfolios to estimation error. A regime-switching factor model of returns is introduced to account for the abrupt changes in the behaviour of economic time series associated with financial cycles. This model incorporates market dynamics in an effort to improve parameter estimation. We proceed to use this model for risk parity optimization and also consider the construction of a robust version of the risk parity optimization by introducing uncertainty structures to the estimated market parameters. We test our model by constructing a regime-switching risk parity portfolio based on the Fama--French three-factor model. The out-of-sample computational results show that a regime-switching risk parity portfolio can consistently outperform its nominal counterpart, maintaining a similar ex post level of risk while delivering higher-than-nominal returns over a long-term investment horizon. Moreover, we present a dynamic portfolio rebalancing policy that further magnifies the benefits of a regime-switching portfolio.</pcoll>
+        </div>
+        <button class="pdfLink" onclick="window.open('#gcosta.pdf','_blank')"><b>PDF</b></button>
 
+        <!-- Dexter's paper -->
+        <li><p>Wu, D., Kwon, R. H., and Costa, G. (2017). <a href="https://www.sciencedirect.com/science/article/pii/S0925527317302359" target="_blank">A constrained cluster-based approach for tracking the S&P 500 index</a>. <i>International Journal of Production Economics</i>, 193, 222-243.</p></li>
+
+        <button class="collapsible"><b>Abstract</b></button>
+        <div class="content">
+          <!-- ABSTRACT -->
+          <pcoll>We consider the problem of tracking a benchmark target portfolio of financial securities in particular the S&P 500. Linear integer programming models are developed that seeks to track a target portfolio using a strict subset of securities from the benchmark portfolio. The models represent a clustering approach to select securities and also include additional constraints that aim to control risk and transactions costs. Lagrangian and semi-Lagrangian methods are developed to compute solutions to the tracking models. The computational results show the effectiveness of the linear tracking models and the computational methods in tracking the S&P 500. Overall, the models and methods presented can serve as the basis of the optimization module in an optimization-based decision support for creating tracking portfolios.</pcoll>
+        </div>
+
+        <!-- Paidoussis paper -->
+        <li><p>Kheiri, M., Paidoussis, M. P., Costa, G., and Amabili, M. (2014). <a href="https://www.sciencedirect.com/science/article/pii/S0889974614000978" target="_blank">Dynamics of a pipe conveying fluidflexibly restrained at the ends.</a>. <i>Journal of Fluids and Structures</i>, 49, 360-385.</p></li>
+
+        <button class="collapsible"><b>Abstract</b></button>
+        <div class="content">
+          <!-- ABSTRACT -->
+          <pcoll>The subject of this paper is the study of dynamics and stability of a pipe flexibly supported at its ends and conveying fluid. First, the equation of motion of the system is derived via the extended form of Hamilton׳s principle for open systems. In the derivation, the effect of flexible supports, modelled as linear translational and rotational springs, is appropriately considered in the equation of motion rather than in the boundary conditions. The resulting equation of motion is then discretized via the Galerkin method in which the eigenfunctions of a free-free Euler–Bernoulli beam are utilized. Thus, a general set of second-order ordinary differential equations emerges, in which, by setting the stiffness of the end-springs suitably, one can readily investigate the dynamics of various systems with either classical or non-classical boundary conditions. Several numerical analyses are initially performed, in which the eigenvalues of a simplified system (a beam) with flexible end-supports are obtained and then compared with numerical results, so as to verify the equation of motion, in its simplified form. Then, the dynamics of a pinned-free pipe conveying fluid is systematically investigated, in which it is found that a pinned-free pipe conveying fluid is generally neutrally stable until it becomes unstable via a Hopf bifurcation leading to flutter. The next part of the paper is devoted to studying the dynamics of a pinned-free pipe additionally constrained at the pinned end by a rotational spring. A wide range of dynamical behaviour is seen as the mass ratio of the system (mass of the fluid to the fluid+pipe mass) varies. It is surprising to see that for a range of rotational spring stiffness, an increase in the stiffness makes the pipe less stable. Finally, a pipe conveying fluid supported only by a translational and a rotational spring at the upstream end is considered. For this system, the critical flow velocity is determined for various values of spring constants, and several Argand diagrams along with modal shapes of the unstable modes are presented. The dynamics of this system is found to be very complex and often unpredictable (unexpected).</pcoll>
+        </div>
+      
+      </ul>
+      <!------------------------------------------------------------->
+      <!-- Preprints -->
+      <!------------------------------------------------------------->
+      <h1>Preprints</h1>
+      
+      <ul>
+      
+        <!-- RS MVO -->
+        <li><p>Costa, G. and Kwon, R. H. (2019a). A regime-switching factor model for  mean–variance  optimization. Manuscript submitted for publication.</p></li>
+
+        <button class="collapsible"><b>Abstract</b></button>
+        <div class="content">
+          <!-- ABSTRACT -->
+          <pcoll>We formulate a novel Markov regime-switching factor model to describe the cyclical nature of asset returns in modern financial markets. Maintaining a factor model structure allows us to easily derive the asset expected returns and their corresponding covariance matrix. By design, these two parameters are calibrated to better describe the properties of the different market regimes. In turn, these regime-dependent parameters serve as the inputs during mean--variance optimization, thereby constructing portfolios adapted to the current market environment. Through this formulation, the proposed model allows for the construction of large, realistic portfolios at no additional computational cost during optimization. Moreover, the viability of this model can be significantly improved by periodically rebalancing the portfolio, ensuring proper alignment between the estimated parameters and the transient market regimes. An out-of-sample computational experiment over a long investment horizon shows that the proposed regime-dependent portfolios are better aligned with the market environment, yielding a higher ex-post rate of return and lower volatility, even when compared against competing portfolios.</pcoll>
+        </div>
+         <button class="pdfLink" onclick="window.open('#gcosta.pdf','_blank')"><b>PDF</b></button>
+
+        <!-- Robust RP -->
+        <li><p>Costa, G. and Kwon, R. H. (2019b). A robust framework for risk parity portfolios. Manuscript submitted for publication.</p></li>
+
+        <button class="collapsible"><b>Abstract</b></button>
+        <div class="content">
+          <!-- ABSTRACT -->
+          <pcoll>We propose a robust formulation of the traditional risk parity problem by introducing an uncertainty structure specifically tailored to capture the intricacies of risk parity. Typical minimum variance portfolios attempt to introduce robustness by computing the worst-case estimate of the risk measure, which is not intuitive for risk parity. Instead, our motivation is to shield the risk parity portfolio against noise in the estimated asset risk contributions. We do this by introducing a novel robust risk parity model that places an uncertainty set around the assets’ marginal risk contributions, and we provide a tractable formulation that is able to retain the same level of complexity as the original problem. We provide a general procedure by which to create the uncertainty structure around the vector of marginal risk contributions, and we elaborate on the specific procedure to construct a robust risk parity portfolio through a factor model of asset returns. Computational experiments show that the robust formulation yields a higher risk-adjusted rate of return than the nominal model while maintaining a sufficiently risk-diverse portfolio.</pcoll>
+        </div>
+        <button class="pdfLink" onclick="window.open('#gcosta.pdf','_blank')"><b>PDF</b></button>
+
+        <!-- Generalized RP -->
+        <li><p>Costa,  G.  and  Kwon,  R.  H.  (2019c). Generalized risk parity portfolio optimization: An ADMM approach. Manuscript submitted for publication.</p></li>
+
+        <button class="collapsible"><b>Abstract</b></button>
+        <div class="content">
+          <!-- ABSTRACT -->
+          <pcoll>The risk parity solution to the asset allocation problem yields portfolios where the risk contribution from each asset is made equal. We consider a generalized approach to this problem. First, we set an objective that seeks to maximize the portfolio expected return while minimizing portfolio risk. Second, we relax the risk parity condition and instead bound the risk dispersion of the constituents within a predefined limit. This allows an investor to prescribe a desired risk dispersion range, yielding a portfolio with an optimal risk--return profile that is still well-diversified from a risk-based standpoint. We add robustness to our framework by introducing an ellipsoidal uncertainty structure around our estimated asset expected returns to mitigate estimation error. Our proposed framework does not impose any restrictions on short selling. A limitation of risk parity is that allowing of short sales leads to a non-convex problem. However, we propose an approach that relaxes our generalized risk parity model into a convex semidefinite program. We proceed to tighten this relaxation sequentially through the alternating direction method of multipliers. This procedure iterates between the convex optimization problem and the non-convex problem with a rank constraint. In addition, we can exploit this structure to solve the non-convex problem analytically and efficiently during every iteration. Numerical results show that this algorithm converges to a higher quality optimal solution when compared to the competing non-convex problem. </pcoll>
+        </div>
+        <button class="pdfLink" onclick="window.open('#gcosta.pdf','_blank')"><b>PDF</b></button>
+      
+      </ul>
+
+    </div>
   </div>
-  <div class="column60">
-    <h1>About Me</h1>
-    <p>I am a PhD candidate at the <a href="https://www.mie.utoronto.ca/" target="_blank">Department of Mechanical and Industrial Engineering</a>  at the University of Toronto. I am a student of Professor Roy H. Kwon, and my research is focused on robust optimization in asset allocation problems.</p>
+    
+  <a id="Teaching">
+  <hr/>
+<!-- ###################################################################### -->
+<!--  TEACHING -->
+<!-- ###################################################################### -->
+  <div class="row"> 
+        
+    <div class="column40">
+      <p style = "margin-bottom: 40px"> </p>
+      <h1 class="header1">Teaching</h1>
+    </div>
+    <div class="column60">
+      <!------------------------------------------------------------->
+      <!-- Lecturer -->
+      <!------------------------------------------------------------->
+      <h1>Lecturer</h1>
+      
+      <ul>
+        
+        <li><p><a href="https://portal.engineering.utoronto.ca/sites/calendars/current/Course_Descriptions.html#MIE377H1" target="_blank">MIE377H1 - Financial Optimization Models</a><br>
+          Mechanical and Industrial Engineering<br>
+          University of Toronto<br>
+          Winter 2019, 2018<br>
+          Instructor rating: 4.6 / 5.0
+          </p></li>
+        
+        <li><p><a href="https://portal.engineering.utoronto.ca/sites/calendars/current/Course_Descriptions.html#MIE375H1" target="_blank">MIE375H1 - Financial Engineering</a><br>
+          Mechanical and Industrial Engineering<br>
+          University of Toronto<br>
+          Fall 2018<br>
+          Instructor rating: 4.5 / 5.0
+          </p></li>
+        
+      </ul>  
+      
+      <!------------------------------------------------------------->
+      <!-- Teaching Assistant -->
+      <!------------------------------------------------------------->
+      <h1>Teaching Assistant</h1>
+      
+      <ul>
+        
+        <li><p><a href="https://www.mmf.utoronto.ca/summer_session.html#" target="_blank">MMF1921H - Operations Research</a><br>
+          Master of Mathematical Finance Program<br>
+          University of Toronto<br>
+          Summer 2019, 2018, 2017<br>
+          </p></li>
+        
+        <li><p><a href="https://www.mmf.utoronto.ca/summer_session.html#" target="_blank">MMF2000H - Risk Management</a><br>
+          Master of Mathematical Finance Program<br>
+          University of Toronto<br>
+          Fall 2018, Summer 2018, Summer 2017<br>
+          </p></li>
+        
+        <li><p><a href="https://www.mie.utoronto.ca/mie/grad/courses" target="_blank">MIE1621H - Non-Linear Optimization</a><br>
+          Mechanical and Industrial Engineering<br>
+          University of Toronto<br>
+          Fall 2016<br>
+          </p></li>
+        
+      </ul> 
+        
+    </div>
+    
   </div>
-</div>
-
-  
-
-  
-<!-- ######################################################################## -->
+    
+  <a id="Contact">
+  <hr/>
+<!-- ###################################################################### -->
+<!--  CONTACT -->
+<!-- ###################################################################### -->
+  <div class="row"> 
+        
+    <div class="column40">
+      <p style = "margin-bottom: 30px"> </p>
+      <h1 class="header1">Contact</h1>
+    </div>
+    <div class="column60">
+      <ul>
+        <li class="mail"><p><a href="mailto:gcosta@mie.utoronto.ca">gcosta@mie.utoronto.ca</a></p></li>
+        
+        <li class="address"><p>5 King's College Road,<br> 
+                            Toronto, ON, Canada<br> 
+                            M5S 3G8</p></li>
+      </ul>
+    </div>
+        
+  </div>
+</div>    
+    
+<!-- ###################################################################### -->
 <!--  BODY END -->
-<!-- ######################################################################## -->
+<!-- ###################################################################### -->
+
 </body>

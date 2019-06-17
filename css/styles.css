@@ -1,25 +1,64 @@
+
+
+/*-----------------------------------------------------------------*/
+/* General text formatting */
+/*-----------------------------------------------------------------*/
 .header1 {
   font-family: "Computer Modern", sans-serif;
   color: rgb(6,41,88);
   text-align: left;
-  font-size: 200%;
-  font-weight: normal;
+  font-size: 2vw;
+  font-weight: none;
 }
 
+/* Headers */
 h1 {
   font-family: "Computer Modern", sans-serif;
   color: rgb(6,41,88);
   text-align: left;
-  font-size: 160%;
+  font-size: 1.5vw;
   font-weight: bold;
 }
 
+/* Paragraphs (basic text) */
 p {
   font-family: "Computer Modern", sans-serif;
   color: black;
-  text-align: left;
-  font-size: 100%;
+  text-align: justify;
+  font-size: 1vw;
   font-weight: normal;
+  line-height: 1.4;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* a.anchor {
+    display: block;
+    position: relative;
+    top: -50px;
+    visibility: hidden;
+} */
+
+/* Paragraphs (basic text) */
+pcoll {
+  font-family: "Computer Modern", sans-serif;
+  color: black;
+  text-align: justify;
+  font-size: 0.9vw;
+  font-weight: normal;
+  line-height: 1.4;
+}
+
+/*-----------------------------------------------------------------*/
+/* Image alignment and image text*/
+/*-----------------------------------------------------------------*/
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
 }
 
 .picText1 {
@@ -28,6 +67,8 @@ p {
   text-align: center;
   font-weight: bold;
   font-size: 120%;
+  margin-top: 2%;
+  margin-bottom: 0
 }
 
 .picText2 {
@@ -35,63 +76,82 @@ p {
   color: gray;
   text-align: center;
   font-weight: normal;
-  font-size: 90%;
+  font-size: 80%;
+  margin: 1%
 }
 
-.banner {
-  font-family: "Computer Modern", sans-serif;
+/*-----------------------------------------------------------------*/
+/* Banner and banner-related styles */
+/*-----------------------------------------------------------------*/
+/* Add a black background color to the top navigation */
+.topnav {
   position: fixed;
   top: 0;
   width: 100%;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
   background-color: rgb(6,41,88);
+  overflow: hidden;
+/*   height: 100%; */
+  font-family: "Computer Modern", sans-serif;
 }
 
-li a {
-    float: right;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 15px 20px;
-    text-decoration: none;
+/* Style the links inside the navigation bar */
+.topnav a2 {
+  float: left;
+  color: #f2f2f2;
+  text-align: left;
+  padding-left: 15%;
+  padding-right: 33%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-decoration: none;
+  font-size: 17px;
 }
 
-li b {
-    font-family: "Computer Modern", sans-serif;
-    float: left;
-    display: block;
-    color: #e6e6e6;
-    text-align: center;
-    padding: 12px 50px;
-    text-decoration: none;
-    font-size: 110%;
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 15px 30px;
+  display: block;
+  text-decoration: none;
+  font-size: 17px;
 }
 
-li a:hover:not(.active) {
-    background-color: #111;
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: rgb(30,144,255);
+  color: white;
 }
 
-.active {
-    background-color: #0052cc;
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #0052cc;
+  color: white;
 }
 
-* {
-    box-sizing: border-box;
+/*-----------------------------------------------------------------*/
+/* Text split within the page */
+/*-----------------------------------------------------------------*/
+
+/* Container for text */
+#container {
+    width: 70%;
+    margin: auto;
 }
 
 .column40 {
     float: left;
-    width: 40%;
-    padding: 10px;
+    width: 30%;
+    padding: 0%;
+    margin: auto;
 }
 
 .column60 {
-    float: left;
-    width: 60%;
-    padding: 10px;
+    float: center;
+    width: auto;
+    padding: 0%;
+    margin-left: 30%;
 }
 
 /* Clear floats after the columns */
@@ -101,3 +161,81 @@ li a:hover:not(.active) {
     clear: both;
 }
 
+/*-----------------------------------------------------------------*/
+/* Add line between sections */
+/*-----------------------------------------------------------------*/
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1.5px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*-----------------------------------------------------------------*/
+/* Images for bullets */
+/*-----------------------------------------------------------------*/
+li.mail {
+  ist-style-image: url('/images/mail.png');
+}
+
+li.address {
+  ist-style-image: url('/images/address.png');
+}
+
+/*-----------------------------------------------------------------*/
+/* Collapsible button */
+/*-----------------------------------------------------------------*/
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: white;
+  color: rgb(6,41,88);
+  cursor: pointer;
+  padding: 8px;
+  width: auto;
+  border: solid rgb(6,41,88);;
+  text-align: center;
+  outline: none;
+  font-size: 0.8vw;
+  border-radius: 12px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: #eee;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  float: center;
+  margin-left: auto;
+  width: auto;
+  padding: 20px 20px;
+  text-align: justify;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+/*-----------------------------------------------------------------*/
+/* Link to PDF button */
+/*-----------------------------------------------------------------*/
+/* Style the button that is used to open and close the collapsible content */
+.pdfLink {
+  background-color: white;
+  color: rgb(6,41,88);
+  cursor: pointer;
+  padding: 8px;
+  width: auto;
+  border: solid rgb(6,41,88);;
+  text-align: center;
+  outline: none;
+  font-size: 0.8vw;
+  border-radius: 12px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .pdfLink:hover {
+  background-color: #eee;
+}
