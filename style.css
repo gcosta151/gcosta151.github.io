@@ -188,8 +188,8 @@ li.mail{
   list-style: none;
   background-image: url('images/mail.png');
   background-repeat: no-repeat;
-  background-position: left center;
-  background-size: 10px;
+/*   background-position: left center; */
+  background-size: 40px;
 }
 /* li.mail:before{
    content: '';
