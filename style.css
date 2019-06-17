@@ -201,8 +201,6 @@ li.address{
 li.address:before{
    content: '';
    display: inline-block;
-   height: 2px;
-   width: 2px;
    background: url('address.png');
    background-size: 2px;
 }
