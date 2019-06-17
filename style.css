@@ -83,7 +83,7 @@ pcoll {
   color: rgb(6,41,88);
   text-align: center;
   font-weight: bold;
-  font-size: 120%;
+  font-size: 1.2em;
   margin-top: 2%;
   margin-bottom: 0
 }
@@ -93,8 +93,8 @@ pcoll {
   color: gray;
   text-align: center;
   font-weight: normal;
-  font-size: 80%;
-  margin: 1%
+  font-size: 0.75em;
+  margin: 0;
 }
 
 /*-----------------------------------------------------------------*/
