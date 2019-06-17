@@ -184,15 +184,20 @@ li.address {
 } */
 
 li.mail{
-   list-style: none;
+  margin: 0;
+  list-style: none;
+  background-image: url('images/mail.png');
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 10px;
 }
-li.mail:before{
+/* li.mail:before{
    content: '';
    display: inline-block;
    height: 2px;
    width: 2px;
-   background-image: url('mail.png');
-}
+   background-image: url('images/mail.png');
+} */
 
 li.address{
    list-style: none;
@@ -202,7 +207,8 @@ li.address:before{
    display: inline-block;
    height: 2px;
    width: 2px;
-   background-image: url('address.png');
+   background: url('images/address.png');
+   background-size: auto;
 }
 
 /*-----------------------------------------------------------------*/
