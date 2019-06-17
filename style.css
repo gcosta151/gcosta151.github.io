@@ -183,48 +183,6 @@ hr {
 }
 
 /*-----------------------------------------------------------------*/
-<<<<<<< HEAD
-=======
-/* Images for bullets */
-/*-----------------------------------------------------------------*/
-/* li.mail {
-  list-style-image: url('mail.png');
-}
-
-li.address {
-  list-style-image: url('address.png');
-} */
-
-li.mail{
-/*   margin: 0; */
-  list-style: none;
-  background-image: url('images/mail.png');
-  background-repeat: no-repeat;
-/*   background-position: left center; */
-  background-size: 50px;
-}
-/* li.mail:before{
-   content: '';
-   display: inline-block;
-   height: 2px;
-   width: 2px;
-   background-image: url('images/mail.png');
-} */
-
-li.address{
-   list-style: none;
-}
-li.address:before{
-   content: '';
-   display: inline-block;
-   height: 2px;
-   width: 2px;
-   background: url('images/address.png');
-   background-size: auto;
-}
-
-/*-----------------------------------------------------------------*/
->>>>>>> cb25d02382323ceb39c20365243eece1a7729366
 /* Collapsible button */
 /*-----------------------------------------------------------------*/
 /* Style the button that is used to open and close the collapsible content */
