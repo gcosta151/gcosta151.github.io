@@ -184,12 +184,12 @@ li.address {
 } */
 
 li.mail{
-  margin: 0;
+/*   margin: 0; */
   list-style: none;
   background-image: url('images/mail.png');
   background-repeat: no-repeat;
 /*   background-position: left center; */
-  background-size: 40px;
+  background-size: 50px;
 }
 /* li.mail:before{
    content: '';
