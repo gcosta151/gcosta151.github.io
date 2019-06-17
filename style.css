@@ -30,6 +30,16 @@ p {
   line-height: 1.4;
 }
 
+/* Paragraphs (basic text) */
+.s1 {
+  font-family: "Computer Modern", sans-serif;
+/*   color: black; */
+  text-align: justify;
+  font-size: 1vw;
+  font-weight: normal;
+  line-height: 1.4;
+}
+
 a {
   text-decoration: none;
 }
@@ -170,45 +180,6 @@ hr {
     border-top: 1.5px solid #ccc;
     margin: 1em 0;
     padding: 0;
-}
-
-/*-----------------------------------------------------------------*/
-/* Images for bullets */
-/*-----------------------------------------------------------------*/
-/* li.mail {
-  list-style-image: url('mail.png');
-}
-
-li.address {
-  list-style-image: url('address.png');
-} */
-
-li.mail{
-  margin: 0;
-  list-style: none;
-  background-image: url('images/mail.png');
-  background-repeat: no-repeat;
-/*   background-position: left center; */
-  background-size: 40px;
-}
-/* li.mail:before{
-   content: '';
-   display: inline-block;
-   height: 2px;
-   width: 2px;
-   background-image: url('images/mail.png');
-} */
-
-li.address{
-   list-style: none;
-}
-li.address:before{
-   content: '';
-   display: inline-block;
-   height: 2px;
-   width: 2px;
-   background: url('images/address.png');
-   background-size: auto;
 }
 
 /*-----------------------------------------------------------------*/
