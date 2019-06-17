@@ -1,7 +1,8 @@
 /*-----------------------------------------------------------------*/
 /* Fonts */
 /*-----------------------------------------------------------------*/
-@font-face { font-family: testFont; src: url('fonts/mem5YaGs126MiZpBA-UN_r8OUuhpKKSTjw.woff2'); } 
+/* @font-face { font-family: testFont; src: url('fonts/mem5YaGs126MiZpBA-UN_r8OUuhpKKSTjw.woff2'); }  */
+@font-face { font-family: testFont; src: url('fonts/mem8YaGs126MiZpBA-UFVZ0bf8pkAg.woff2'); } 
 
 @font-face { font-family: boldFont; src: url('fonts/mem5YaGs126MiZpBA-UN7rgOUuhpKKSTjw.woff2'); } 
 
@@ -152,7 +153,7 @@ pcoll {
 
 /* Container for text */
 #container {
-    width: 65%;
+    width: 70%;
     margin: auto;
 }
 
