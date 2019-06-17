@@ -10,7 +10,7 @@
 /* General text formatting */
 /*-----------------------------------------------------------------*/
 .header1 {
-  font-family: "boldFont", sans-serif;
+  font-family: "boldFont";
   color: rgb(6,41,88);
   text-align: left;
   font-size: 2em;
@@ -19,7 +19,7 @@
 
 /* Headers */
 h1 {
-  font-family: "boldFont", sans-serif;
+  font-family: "boldFont";
   color: rgb(6,41,88);
   text-align: left;
   font-size: 1.5em;
@@ -28,7 +28,7 @@ h1 {
 
 /* Paragraphs (basic text) */
 p {
-  font-family: "testFont", sans-serif;
+  font-family: "testFont";
   color: black;
   text-align: justify;
   font-size: 1em;
@@ -38,7 +38,7 @@ p {
 
 /* Paragraphs (basic text) */
 .s1 {
-  font-family: "testFont", sans-serif;
+  font-family: "testFont";
 /*   color: black; */
   text-align: justify;
   font-size: 1em;
@@ -59,7 +59,7 @@ a {
 
 /* Paragraphs (basic text) */
 pcoll {
-  font-family: "testFont", sans-serif;
+  font-family: "testFont";
   color: black;
   text-align: justify;
   font-size: 0.9em;
@@ -78,7 +78,7 @@ pcoll {
 }
 
 .picText1 {
-  font-family: "testFont", sans-serif;
+  font-family: "testFont";
   color: rgb(6,41,88);
   text-align: center;
   font-weight: bold;
@@ -88,7 +88,7 @@ pcoll {
 }
 
 .picText2 {
-  font-family: "testFont", sans-serif;
+  font-family: "testFont";
   color: gray;
   text-align: center;
   font-weight: normal;
@@ -110,7 +110,7 @@ pcoll {
 
 /* Style the links inside the navigation bar */
 .topnav a2 {
-  font-family: "boldFont", sans-serif;
+  font-family: "boldFont";
   float: left;
   color: white;
   text-align: left;
@@ -124,7 +124,7 @@ pcoll {
 
 /* Style the links inside the navigation bar */
 .topnav a {
-  font-family: "testFont", sans-serif;
+  font-family: "testFont";
   float: left;
   color: white;
   text-align: center;
