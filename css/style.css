@@ -1,7 +1,10 @@
 /*-----------------------------------------------------------------*/
 /* Fonts */
 /*-----------------------------------------------------------------*/
-@font-face { font-family: testFont; src: url('academicons.ttf'); } 
+/* @font-face { font-family: testFont; src: url('./fonts/academicons.ttf'); } 
+ */
+@font-face { font-family: testFont; src: url('./fonts/mem5YaGs126MiZpBA-UN_r8OUuhpKKSTjw.woff2'); } 
+
 
 /*-----------------------------------------------------------------*/
 /* General text formatting */
