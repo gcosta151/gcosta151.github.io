@@ -175,12 +175,34 @@ hr {
 /*-----------------------------------------------------------------*/
 /* Images for bullets */
 /*-----------------------------------------------------------------*/
-li.mail {
+/* li.mail {
   list-style-image: url('mail.png');
 }
 
 li.address {
   list-style-image: url('address.png');
+} */
+
+li.mail{
+   list-style: none;
+}
+li.mail:before{
+   content: '';
+   display: inline-block;
+   height: 2px;
+   width: 2px;
+   background-image: url('mail.png');
+}
+
+li.address{
+   list-style: none;
+}
+li.address:before{
+   content: '';
+   display: inline-block;
+   height: 2px;
+   width: 2px;
+   background-image: url('address.png');
 }
 
 /*-----------------------------------------------------------------*/
