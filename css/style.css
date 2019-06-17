@@ -7,7 +7,7 @@
 /* General text formatting */
 /*-----------------------------------------------------------------*/
 .header1 {
-  font-family: "Computer Modern", sans-serif;
+  font-family: "testFont", sans-serif;
   color: rgb(6,41,88);
   text-align: left;
   font-size: 2vw;
@@ -16,7 +16,7 @@
 
 /* Headers */
 h1 {
-  font-family: "Computer Modern", sans-serif;
+  font-family: "testFont", sans-serif;
   color: rgb(6,41,88);
   text-align: left;
   font-size: 1.5vw;
@@ -35,7 +35,7 @@ p {
 
 /* Paragraphs (basic text) */
 .s1 {
-  font-family: "Computer Modern", sans-serif;
+  font-family: "testFont", sans-serif;
 /*   color: black; */
   text-align: justify;
   font-size: 1vw;
@@ -56,7 +56,7 @@ a {
 
 /* Paragraphs (basic text) */
 pcoll {
-  font-family: "Computer Modern", sans-serif;
+  font-family: "testFont", sans-serif;
   color: black;
   text-align: justify;
   font-size: 0.9vw;
@@ -75,7 +75,7 @@ pcoll {
 }
 
 .picText1 {
-  font-family: "Computer Modern", sans-serif;
+  font-family: "testFont", sans-serif;
   color: rgb(6,41,88);
   text-align: center;
   font-weight: bold;
@@ -85,7 +85,7 @@ pcoll {
 }
 
 .picText2 {
-  font-family: "Computer Modern", sans-serif;
+  font-family: "testFont", sans-serif;
   color: gray;
   text-align: center;
   font-weight: normal;
@@ -103,7 +103,7 @@ pcoll {
   width: 99%;
   background-color: rgb(6,41,88);
   overflow: hidden;
-  font-family: "Computer Modern", sans-serif;
+  font-family: "testFont", sans-serif;
 }
 
 /* Style the links inside the navigation bar */
