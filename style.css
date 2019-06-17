@@ -1,7 +1,6 @@
 /*-----------------------------------------------------------------*/
 /* Fonts */
 /*-----------------------------------------------------------------*/
-/* @font-face { font-family: testFont; src: url('fonts/mem5YaGs126MiZpBA-UN_r8OUuhpKKSTjw.woff2'); }  */
 @font-face { font-family: testFont; src: url('fonts/mem8YaGs126MiZpBA-UFVZ0bf8pkAg.woff2'); } 
 
 @font-face { font-family: boldFont; src: url('fonts/mem5YaGs126MiZpBA-UN7rgOUuhpKKSTjw.woff2'); } 
@@ -27,8 +26,26 @@ h1 {
   font-weight: bold;
 }
 
+/* Headers */
+h2 {
+  font-family: "boldFont";
+  color: rgb(6,41,88);
+  text-align: left;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
 /* Paragraphs (basic text) */
 p {
+  font-family: "testFont";
+  color: black;
+  text-align: justify;
+  font-size: 1em;
+  font-weight: normal;
+  line-height: 1.4;
+}
+
+p2 {
   font-family: "testFont";
   color: black;
   text-align: justify;
@@ -153,29 +170,30 @@ pcoll {
 
 /* Container for text */
 #container {
-    width: 70%;
-    margin: auto;
+  width: 70%;
+  margin: auto;
 }
 
 .column40 {
-    float: left;
-    width: 30%;
-    padding: 0%;
-    margin: auto;
+  float: left;
+  width: 30%;
+  padding: 0%;
+  margin: auto;
 }
 
 .column60 {
-    float: center;
-    width: auto;
-    padding: 0%;
-    margin-left: 30%;
+  float: center;
+  width: auto;
+  padding: 0%;
+  margin-left: 35%;
+  margin-right: 15%;
 }
 
 /* Clear floats after the columns */
 .row:after {
-    content: "";
-    display: table;
-    clear: both;
+  content: "";
+  display: table;
+  clear: both;
 }
 
 /*-----------------------------------------------------------------*/
