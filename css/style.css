@@ -1,16 +1,16 @@
 /*-----------------------------------------------------------------*/
 /* Fonts */
 /*-----------------------------------------------------------------*/
-/* @font-face { font-family: testFont; src: url('fonts/academicons.ttf'); } 
- */
 @font-face { font-family: testFont; src: url('fonts/mem5YaGs126MiZpBA-UN_r8OUuhpKKSTjw.woff2'); } 
+
+@font-face { font-family: boldFont; src: url('fonts/mem5YaGs126MiZpBA-UN7rgOUuhpKKSTjw.woff2'); } 
 
 
 /*-----------------------------------------------------------------*/
 /* General text formatting */
 /*-----------------------------------------------------------------*/
 .header1 {
-  font-family: "testFont", sans-serif;
+  font-family: "boldFont", sans-serif;
   color: rgb(6,41,88);
   text-align: left;
   font-size: 2em;
@@ -19,7 +19,7 @@
 
 /* Headers */
 h1 {
-  font-family: "testFont", sans-serif;
+  font-family: "boldFont", sans-serif;
   color: rgb(6,41,88);
   text-align: left;
   font-size: 1.5em;
@@ -106,11 +106,11 @@ pcoll {
   width: 99%;
   background-color: rgb(6,41,88);
   overflow: hidden;
-  font-family: "testFont", sans-serif;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a2 {
+  font-family: "boldFont", sans-serif;
   float: left;
   color: white;
   text-align: left;
@@ -124,6 +124,7 @@ pcoll {
 
 /* Style the links inside the navigation bar */
 .topnav a {
+  font-family: "testFont", sans-serif;
   float: left;
   color: white;
   text-align: center;
