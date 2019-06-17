@@ -177,11 +177,11 @@ hr {
 /* Images for bullets */
 /*-----------------------------------------------------------------*/
 li.mail {
-  ist-style-image: url('/images/mail.png');
+  ist-style-image: url('mail.png');
 }
 
 li.address {
-  ist-style-image: url('/images/address.png');
+  ist-style-image: url('address.png');
 }
 
 /*-----------------------------------------------------------------*/
