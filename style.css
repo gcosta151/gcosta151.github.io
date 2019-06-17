@@ -134,8 +134,8 @@ pcoll {
   text-align: left;
   padding-left: 7em;
   padding-right: 12em;
-  padding-top: 1em;
-  padding-bottom: 1em;
+  padding-top: 0.75em;
+  padding-bottom: 0.75em;
   text-decoration: none;
   font-size: 1.5em;
 }
@@ -146,7 +146,10 @@ pcoll {
   float: left;
   color: white;
   text-align: center;
-  padding: 1em 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 0.75em;
+  padding-bottom: 0.75em;
   display: block;
   text-decoration: none;
   font-size: 1.5em;
