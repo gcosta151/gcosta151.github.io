@@ -192,7 +192,7 @@ li.mail:before{
    height: 2px;
    width: 2px;
    background: url('mail.png');
-   background-size: auto;
+   background-size: 2px;
 }
 
 li.address{
@@ -204,7 +204,7 @@ li.address:before{
    height: 2px;
    width: 2px;
    background: url('address.png');
-   background-size: auto;
+   background-size: 2px;
 }
 
 /*-----------------------------------------------------------------*/
