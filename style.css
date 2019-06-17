@@ -196,14 +196,8 @@ li.mail{
    display: inline-block;
    height: 2px;
    width: 2px;
-<<<<<<< HEAD
    background-image: url('images/mail.png');
 } */
-=======
-   background: url('mail.png');
-   background-size: 2px;
-}
->>>>>>> 88568749045bfd2843fc20944193b45129ed0806
 
 li.address{
    list-style: none;
@@ -211,15 +205,10 @@ li.address{
 li.address:before{
    content: '';
    display: inline-block;
-<<<<<<< HEAD
    height: 2px;
    width: 2px;
    background: url('images/address.png');
    background-size: auto;
-=======
-   background: url('address.png');
-   background-size: 2px;
->>>>>>> 88568749045bfd2843fc20944193b45129ed0806
 }
 
 /*-----------------------------------------------------------------*/
