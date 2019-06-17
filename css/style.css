@@ -3,8 +3,12 @@
 /*-----------------------------------------------------------------*/
 /* @font-face { font-family: testFont; src: url('fonts/academicons.ttf'); } 
  */
+<<<<<<< HEAD
 @font-face { font-family: testFont; src: url('fonts/mem5YaGs126MiZpBA-UN_r8OUuhpKKSTjw.woff2'); } 
 
+=======
+@font-face { font-family: testFont; src: url('../fonts/mem5YaGs126MiZpBA-UN_r8OUuhpKKSTjw.woff2'); } 
+>>>>>>> 27ca212ee65f6a8c881af2162307d5993d59f35c
 
 /*-----------------------------------------------------------------*/
 /* General text formatting */
