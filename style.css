@@ -191,7 +191,8 @@ li.mail:before{
    display: inline-block;
    height: 2px;
    width: 2px;
-   background-image: url('mail.png');
+   background: url('mail.png');
+   background-size: auto;
 }
 
 li.address{
@@ -202,7 +203,8 @@ li.address:before{
    display: inline-block;
    height: 2px;
    width: 2px;
-   background-image: url('address.png');
+   background: url('address.png');
+   background-size: auto;
 }
 
 /*-----------------------------------------------------------------*/
