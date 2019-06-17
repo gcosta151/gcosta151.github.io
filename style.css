@@ -100,7 +100,7 @@ pcoll {
   color: rgb(6,41,88);
   text-align: center;
   font-weight: bold;
-  font-size: 1.2em;
+  font-size: 1.5em;
   margin-top: 2%;
   margin-bottom: 0
 }
@@ -110,7 +110,7 @@ pcoll {
   color: gray;
   text-align: center;
   font-weight: normal;
-  font-size: 0.75em;
+  font-size: 0.85em;
   margin: 0;
 }
 
@@ -133,11 +133,11 @@ pcoll {
   color: white;
   text-align: left;
   padding-left: 10%;
-  padding-right: 30%;
+  padding-right: 25%;
   padding-top: 15px;
   padding-bottom: 15px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 1.75em;
 }
 
 /* Style the links inside the navigation bar */
@@ -149,7 +149,7 @@ pcoll {
   padding: 15px 25px;
   display: block;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 1.5em;
 }
 
 /* Change the color of links on hover */
@@ -176,7 +176,7 @@ pcoll {
 
 .column40 {
   float: left;
-  width: 30%;
+  width: 32.5%;
   padding: 0%;
   margin: auto;
 }
@@ -186,7 +186,7 @@ pcoll {
   width: auto;
   padding: 0%;
   margin-left: 35%;
-  margin-right: 15%;
+  margin-right: 12.5%;
 }
 
 /* Clear floats after the columns */
