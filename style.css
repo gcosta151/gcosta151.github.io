@@ -87,7 +87,7 @@ pcoll {
 .topnav {
   position: fixed;
   top: 0;
-  width: 100%;
+  width: 99%;
   background-color: rgb(6,41,88);
   overflow: hidden;
   font-family: "Computer Modern", sans-serif;
