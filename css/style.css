@@ -1,9 +1,9 @@
 /*-----------------------------------------------------------------*/
 /* Fonts */
 /*-----------------------------------------------------------------*/
-/* @font-face { font-family: testFont; src: url('./fonts/academicons.ttf'); } 
+/* @font-face { font-family: testFont; src: url('fonts/academicons.ttf'); } 
  */
-@font-face { font-family: testFont; src: url('./fonts/mem5YaGs126MiZpBA-UN_r8OUuhpKKSTjw.woff2'); } 
+@font-face { font-family: testFont; src: url('fonts/mem5YaGs126MiZpBA-UN_r8OUuhpKKSTjw.woff2'); } 
 
 
 /*-----------------------------------------------------------------*/
@@ -13,7 +13,7 @@
   font-family: "testFont", sans-serif;
   color: rgb(6,41,88);
   text-align: left;
-  font-size: 2vw;
+  font-size: 2em;
   font-weight: none;
 }
 
@@ -22,7 +22,7 @@ h1 {
   font-family: "testFont", sans-serif;
   color: rgb(6,41,88);
   text-align: left;
-  font-size: 1.5vw;
+  font-size: 1.5em;
   font-weight: bold;
 }
 
@@ -31,7 +31,7 @@ p {
   font-family: "testFont", sans-serif;
   color: black;
   text-align: justify;
-  font-size: 1vw;
+  font-size: 1em;
   font-weight: normal;
   line-height: 1.4;
 }
@@ -41,7 +41,7 @@ p {
   font-family: "testFont", sans-serif;
 /*   color: black; */
   text-align: justify;
-  font-size: 1vw;
+  font-size: 1em;
   font-weight: normal;
   line-height: 1.4;
 }
@@ -62,7 +62,7 @@ pcoll {
   font-family: "testFont", sans-serif;
   color: black;
   text-align: justify;
-  font-size: 0.9vw;
+  font-size: 0.9em;
   font-weight: normal;
   line-height: 1.4;
 }
@@ -151,7 +151,7 @@ pcoll {
 
 /* Container for text */
 #container {
-    width: 70%;
+    width: 65%;
     margin: auto;
 }
 
@@ -201,7 +201,7 @@ hr {
   border: solid rgb(6,41,88);;
   text-align: center;
   outline: none;
-  font-size: 0.8vw;
+  font-size: 0.8em;
   border-radius: 12px;
 }
 
@@ -235,7 +235,7 @@ hr {
   border: solid rgb(6,41,88);;
   text-align: center;
   outline: none;
-  font-size: 0.8vw;
+  font-size: 0.8em;
   border-radius: 12px;
 }
 
