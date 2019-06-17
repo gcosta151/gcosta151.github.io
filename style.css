@@ -90,7 +90,6 @@ pcoll {
   width: 100%;
   background-color: rgb(6,41,88);
   overflow: hidden;
-/*   height: 100%; */
   font-family: "Computer Modern", sans-serif;
 }
 
@@ -99,8 +98,8 @@ pcoll {
   float: left;
   color: white;
   text-align: left;
-  padding-left: 15%;
-  padding-right: 33%;
+  padding-left: 10%;
+  padding-right: 30%;
   padding-top: 15px;
   padding-bottom: 15px;
   text-decoration: none;
@@ -112,7 +111,7 @@ pcoll {
   float: left;
   color: white;
   text-align: center;
-  padding: 15px 30px;
+  padding: 15px 25px;
   display: block;
   text-decoration: none;
   font-size: 17px;
@@ -177,11 +176,11 @@ hr {
 /* Images for bullets */
 /*-----------------------------------------------------------------*/
 li.mail {
-  ist-style-image: url('mail.png');
+  list-style-image: url('mail.png');
 }
 
 li.address {
-  ist-style-image: url('address.png');
+  list-style-image: url('address.png');
 }
 
 /*-----------------------------------------------------------------*/
