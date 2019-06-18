@@ -171,7 +171,7 @@ pcoll {
 /*-----------------------------------------------------------------*/
 
 /* Container for text */
-#container {
+.container {
   width: 70%;
   margin: auto;
 }
@@ -264,4 +264,21 @@ hr {
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active, .pdfLink:hover {
   background-color: #eee;
+}
+
+/*-----------------------------------------------------------------*/
+/* Resize for tablets and phones */
+/*-----------------------------------------------------------------*/
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .container {
+    width: 85%;
+    padding: 0;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .container, {
+    width: 100%;
+  }
 }
