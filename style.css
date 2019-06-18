@@ -9,29 +9,29 @@
 /*-----------------------------------------------------------------*/
 /* General text formatting */
 /*-----------------------------------------------------------------*/
-.header1 {
+h1.g1{
   font-family: "boldFont";
   color: rgb(6,41,88);
   text-align: left;
   font-size: 2em;
+  font-weight: bold;
   font-weight: none;
 }
 
 /* Headers */
-h1 {
+h1.g2 {
   font-family: "boldFont";
   color: rgb(6,41,88);
   text-align: left;
   font-size: 1.5em;
-  font-weight: bold;
 }
 
 /* Headers */
-h2 {
+h2.g1 {
   font-family: "boldFont";
   color: rgb(6,41,88);
   text-align: left;
-  font-size: 1.2em;
+  font-size: 1.25em;
   font-weight: bold;
 }
 
@@ -40,18 +40,18 @@ p {
   font-family: "testFont";
   color: black;
   text-align: justify;
-  font-size: 1em;
+  font-size: 1.1em;
   font-weight: normal;
-  line-height: 1.4;
+  line-height: 1.5;
 }
 
-p2 {
+p2.mylist {
   font-family: "testFont";
   color: black;
   text-align: justify;
-  font-size: 1em;
+  font-size: 1.1em;
   font-weight: normal;
-  line-height: 1.4;
+  line-height: 1.75;
 }
 
 /* Paragraphs (basic text) */
@@ -80,7 +80,7 @@ pcoll {
   font-family: "testFont";
   color: black;
   text-align: justify;
-  font-size: 0.9em;
+  font-size: 1em;
   font-weight: normal;
   line-height: 1.4;
 }
@@ -110,7 +110,7 @@ pcoll {
   color: gray;
   text-align: center;
   font-weight: normal;
-  font-size: 0.9em;
+  font-size: 0.95em;
   margin: 0;
 }
 
@@ -121,9 +121,11 @@ pcoll {
 .topnav {
   position: fixed;
   top: 0;
-  width: 99%;
+  width: 100%;
   background-color: rgb(6,41,88);
   overflow: hidden;
+  opacity: 1.0;
+  z-index: 9999;
 }
 
 /* Style the links inside the navigation bar */
@@ -149,7 +151,8 @@ pcoll {
   padding-left: 1em;
   padding-right: 1em;
   padding-top: 0.75em;
-  padding-bottom: 0.75em;  display: block;
+  padding-bottom: 0.75em;  
+  display: block;
   text-decoration: none;
   font-size: 1.5em;
 }
@@ -158,6 +161,7 @@ pcoll {
 .topnav a:hover {
   background-color: rgb(30,144,255);
   color: white;
+  text-decoration: none;
 }
 
 /* Add a color to the active/current link */
@@ -176,17 +180,35 @@ pcoll {
   margin: auto;
 }
 
-.column40 {
+.container-fluid {
+  max-width: 1200px;
+/*   margin: auto; */
+}
+
+.columnImage {
   float: left;
   width: 32.5%;
   padding: 0%;
   margin: auto;
 }
 
+.column40 {
+  float: left;
+  width: 32.5%;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 2em;
+  padding-bottom: 0;
+  margin: auto;
+}
+
 .column60 {
   float: center;
   width: auto;
-  padding: 0%;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0.2em;
+  padding-bottom: 0;
   margin-left: 35%;
   margin-right: 12.5%;
 }
