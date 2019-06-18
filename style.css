@@ -64,9 +64,9 @@ p2.mylist {
   line-height: 1.4;
 }
 
-a {
+/* a {
   text-decoration: none;
-}
+} */
 
 a.anchor {
     display: block;
@@ -85,6 +85,15 @@ pcoll {
   line-height: 1.4;
 }
 
+#img-link, #img-link img{
+   text-decoration: none !important;
+   border:0px !important;
+   outline:none;
+   border-width: 0px;
+   outline-width:0px;
+   border-bottom: none;
+}
+
 /*-----------------------------------------------------------------*/
 /* Image alignment and image text*/
 /*-----------------------------------------------------------------*/
@@ -96,10 +105,9 @@ pcoll {
 }
 
 .picText1 {
-  font-family: "testFont";
+  font-family: "boldFont";
   color: rgb(6,41,88);
   text-align: center;
-  font-weight: bold;
   font-size: 2em;
   margin-top: 0.5em;
   margin-bottom: 0
@@ -221,7 +229,7 @@ pcoll {
 }
 
 /*-----------------------------------------------------------------*/
-/* Add line between sections */
+/* Add gray line between sections */
 /*-----------------------------------------------------------------*/
 hr {
     display: block;
@@ -251,7 +259,7 @@ hr {
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active, .collapsible:hover {
-  background-color: #eee;
+  background-color: rgb(30,144,255);
 }
 
 /* Style the collapsible content. Note: hidden by default */
@@ -279,13 +287,13 @@ hr {
   border: solid rgb(6,41,88);;
   text-align: center;
   outline: none;
-  font-size: 0.8em;
+  font-size: 0.9em;
   border-radius: 12px;
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active, .pdfLink:hover {
-  background-color: #eee;
+  background-color: rgb(30,144,255);
 }
 
 /*-----------------------------------------------------------------*/
