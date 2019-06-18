@@ -125,6 +125,8 @@ pcoll {
 /*-----------------------------------------------------------------*/
 /* Banner and banner-related styles */
 /*-----------------------------------------------------------------*/
+ul.nav a:hover { background-color: rgb(30,144,255) !important; }
+
 /* Add a black background color to the top navigation */
 .topnav {
   position: fixed;
@@ -299,16 +301,4 @@ hr {
 /*-----------------------------------------------------------------*/
 /* Resize for tablets and phones */
 /*-----------------------------------------------------------------*/
-@media only screen and (max-width:800px) {
-  /* For tablets: */
-  .container {
-    width: 85%;
-    padding: 0;
-  }
-}
-@media only screen and (max-width:500px) {
-  /* For mobile phones: */
-  .container, {
-    width: 100%;
-  }
-}
+
