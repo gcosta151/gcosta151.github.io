@@ -68,12 +68,12 @@ a {
   text-decoration: none;
 }
 
-/* a.anchor {
+a.anchor {
     display: block;
     position: relative;
     top: -50px;
     visibility: hidden;
-} */
+}
 
 /* Paragraphs (basic text) */
 pcoll {
@@ -101,7 +101,7 @@ pcoll {
   text-align: center;
   font-weight: bold;
   font-size: 2em;
-  margin-top: 2%;
+  margin-top: 0.5em;
   margin-bottom: 0
 }
 
@@ -149,8 +149,7 @@ pcoll {
   padding-left: 1em;
   padding-right: 1em;
   padding-top: 0.75em;
-  padding-bottom: 0.75em;
-  display: block;
+  padding-bottom: 0.75em;  display: block;
   text-decoration: none;
   font-size: 1.5em;
 }
