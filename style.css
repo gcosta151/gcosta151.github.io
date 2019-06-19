@@ -13,7 +13,7 @@ h1.g1{
   font-family: "boldFont";
   color: rgb(6,41,88);
   text-align: left;
-  font-size: 2em;
+  font-size: 2.2em;
   font-weight: bold;
   font-weight: none;
 }
@@ -23,7 +23,7 @@ h1.g2 {
   font-family: "boldFont";
   color: rgb(6,41,88);
   text-align: left;
-  font-size: 1.5em;
+  font-size: 1.75em;
 }
 
 /* Headers */
@@ -31,7 +31,7 @@ h2.g1 {
   font-family: "boldFont";
   color: rgb(6,41,88);
   text-align: left;
-  font-size: 1.25em;
+  font-size: 1.5em;
   font-weight: bold;
 }
 
@@ -40,7 +40,7 @@ p {
   font-family: "testFont";
   color: black;
   text-align: justify;
-  font-size: 1.1em;
+  font-size: 1.2em;
   font-weight: normal;
   line-height: 1.5;
 }
@@ -49,7 +49,7 @@ p2.mylist {
   font-family: "testFont";
   color: black;
   text-align: justify;
-  font-size: 1.1em;
+  font-size: 1.2em;
   font-weight: normal;
   line-height: 1.75;
 }
@@ -59,7 +59,7 @@ p2.mylist {
   font-family: "testFont";
 /*   color: black; */
   text-align: justify;
-  font-size: 1em;
+  font-size: 1.1em;
   font-weight: normal;
   line-height: 1.4;
 }
@@ -80,7 +80,7 @@ pcoll {
   font-family: "testFont";
   color: black;
   text-align: justify;
-  font-size: 1em;
+  font-size: 1.1em;
   font-weight: normal;
   line-height: 1.4;
 }
@@ -108,7 +108,7 @@ pcoll {
   font-family: "boldFont";
   color: rgb(6,41,88);
   text-align: center;
-  font-size: 2em;
+  font-size: 2.2em;
   margin-top: 0.5em;
   margin-bottom: 0
 }
@@ -255,7 +255,7 @@ hr {
   border: solid rgb(6,41,88);;
   text-align: center;
   outline: none;
-  font-size: 0.8em;
+  font-size: 1em;
   border-radius: 12px;
 }
 
@@ -289,7 +289,7 @@ hr {
   border: solid rgb(6,41,88);;
   text-align: center;
   outline: none;
-  font-size: 0.9em;
+  font-size: 1em;
   border-radius: 12px;
 }
 
