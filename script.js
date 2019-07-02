@@ -17,11 +17,11 @@ for (i = 0; i < coll.length; i++) {
   });
 }
 
-$('.nav a').on('click', function(){
-    $('.btn-navbar').click(); //bootstrap 2.x
-    $('.navbar-toggle').click(); //bootstrap 3.x by Richard
-    $('.navbar-toggler').click(); //bootstrap 4.x
-});
+// $('.nav a').on('click', function(){
+//     $('.btn-navbar').click(); //bootstrap 2.x
+//     $('.navbar-toggle').click(); //bootstrap 3.x by Richard
+//     $('.navbar-toggler').click(); //bootstrap 4.x
+// });
 
 // var $myGroup = $('#myGroup');
 // $myGroup.on('show.bs.collapse','.collapse', function() {
