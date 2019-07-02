@@ -22,3 +22,14 @@ $('.nav a').on('click', function(){
     $('.navbar-toggle').click(); //bootstrap 3.x by Richard
     $('.navbar-toggler').click(); //bootstrap 4.x
 });
+
+// var $myGroup = $('#myGroup');
+// $myGroup.on('show.bs.collapse','.collapse', function() {
+//     $myGroup.find('.collapse.in').collapse('hide');
+// });
+
+$('.collapse').on('show.bs.collapse', function () {
+    $('.collapse.in').each(function(){
+        $(this).collapse('hide');
+    });
+  });
