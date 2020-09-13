@@ -255,7 +255,7 @@
       <h1 class="g2">Preprints</h1>
 
       <ul>
-        <!-- Robust RP -->
+        <!-- DRO RP -->
         <li><p>Costa, G. and Kwon, R. H. (2020). Data-driven distributionally robust risk parity portfolio optimization. Manuscript submitted for publication.</p>
 
           <div id="myGroup_7">
@@ -265,7 +265,7 @@
       <div class="accordion-group">
         <!-- ABSTRACT -->
           <div class="collapse indent" id="DRRP">
-              <pcoll>We propose a distributionally robust formulation of the traditional risk parity portfolio optimization problem. The probability distribution of the asset returns is considered to be discrete to align with data-driven parameter estimation methods. Typically, the nominal distribution assumes that all scenarios in the dataset are equally likely. However, we break away from this assumption and consider an ambiguity set that allows us to find the most adversarial probability distribution within some predetermined distance of the nominal distribution based on the investor's confidence. Thus, this distributionally robust optimization problem is formulated as a minimax problem. We exploit the risk parity formulation to attain a convex–concave minimax problem. Our approach is financially meaningful, as we attempt to be fully risk diverse with respect to the worst-case instance of the portfolio risk measure. We propose a novel algorithmic approach to solve this minimax problem, which blends projected gradient ascent with sequential convex programming. By design, this algorithm is highly flexible and allows the user to choose among several alternative statistical distance measures to define the ambiguity set. Moreover, the algorithm is highly tractable and scalable. Our numerical experiments suggest that a distributionally robust risk parity portfolio can yield a higher risk-adjusted rate of return when compared against the nominal portfolio.</pcoll>
+              <pcoll>We propose a distributionally robust formulation of the traditional risk parity portfolio optimization problem. Distributional robustness is introduced by targeting the discrete probabilities attached to each observation used during parameter estimation. Instead of assuming that all observations are equally likely, we consider an ambiguity set that provides us with the flexibility to find the most adversarial probability distribution based on the investor's confidence level. This allows us to derive robust estimates to parametrize the distribution of asset returns without having to impose any particular structure on the data. The resulting distributionally robust optimization problem is a constrained convex--concave minimax problem. Our approach is financially meaningful and attempts to attain full risk diversification with respect to the worst-case instance of the portfolio risk measure. We propose a novel algorithmic approach to solve this minimax problem, which blends projected gradient ascent with sequential convex programming. By design, this algorithm is highly flexible and allows the user to choose among alternative statistical distance measures to define the ambiguity set. Moreover, the algorithm is highly tractable and scalable. Our numerical experiments suggest that a distributionally robust risk parity portfolio can yield a higher risk-adjusted rate of return when compared against the nominal portfolio.</pcoll>
 </div>
       </div>
     </div>
