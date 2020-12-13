@@ -11,7 +11,7 @@
 /*-----------------------------------------------------------------*/
 h1.g1{
   font-family: "boldFont";
-  color: rgb(6,41,88);
+  color: rgb(12,46,170);
   text-align: left;
   font-size: 2.2em;
   font-weight: bold;
@@ -21,7 +21,7 @@ h1.g1{
 /* Headers */
 h1.g2 {
   font-family: "boldFont";
-  color: rgb(6,41,88);
+  color: rgb(12,46,170);
   text-align: left;
   font-size: 1.75em;
 }
@@ -29,7 +29,7 @@ h1.g2 {
 /* Headers */
 h2.g1 {
   font-family: "boldFont";
-  color: rgb(6,41,88);
+  color: rgb(12,46,170);
   text-align: left;
   font-size: 1.5em;
   font-weight: bold;
@@ -106,7 +106,7 @@ pcoll {
 
 .picText1 {
   font-family: "boldFont";
-  color: rgb(6,41,88);
+  color: rgb(12,46,170);
   text-align: center;
   font-size: 2.2em;
   margin-top: 0.5em;
@@ -132,7 +132,7 @@ ul.nav a:hover { background-color: rgb(30,144,255) !important; }
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: rgb(6,41,88);
+  background-color: rgb(12,46,170);
   overflow: hidden;
   opacity: 1.0;
   z-index: 9999;
@@ -248,7 +248,7 @@ hr {
 /* Style the button that is used to open and close the collapsible content */
 .collapsible {
   background-color: white;
-  color: rgb(6,41,88);
+  color: rgb(12,46,170);
   cursor: pointer;
   padding: 8px;
   width: auto;
@@ -266,7 +266,7 @@ hr {
 
 .dropdown {
   background-color: white;
-  color: rgb(6,41,88);
+  color: rgb(12,46,170);
   cursor: pointer;
   padding: 8px;
   width: auto;
@@ -310,7 +310,7 @@ hr {
 /* Style the button that is used to open and close the collapsible content */
 .pdfLink {
   background-color: white;
-  color: rgb(6,41,88);
+  color: rgb(12,46,170);
   cursor: pointer;
   padding: 8px;
   width: auto;
