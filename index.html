@@ -138,41 +138,47 @@
 <!-- ###################################################################### -->
 <!--  PUBLICATIONS -->
 <!-- ###################################################################### -->
-  <div class="row row-no-gutters">
-    <div class="col-sm-4">
-      <h1 class="g1">Publications</h1>
-    </div>
-    <div class="col-sm-8">
+<div class="row row-no-gutters">
+<div class="col-sm-4">
+<h1 class="g1">Publications</h1>
+</div>
+<div class="col-sm-8">
      
-      <!------------------------------------------------------------->
-      <!-- Journal publications -->
-      <!------------------------------------------------------------->
-      <h1 class="g2">Journal publications</h1>
-      
-      <ul>
-        <!-- DRO RP -->
-        <li><p>Costa, G. and Kwon, R. H. (2020). Data-driven distributionally robust risk parity portfolio optimization. <i>Optimization Methods and Software</i>. Forthcoming.</p>
+<!------------------------------------------------------------->
+<!-- Journal publications -->
+<!------------------------------------------------------------->
+<h1 class="g2">Journal publications</h1>
 
-          <div id="myGroup_7">
-      <button class="dropdown" data-toggle="collapse" data-target="#DRRP" data-parent="#myGroup_7"><b>Abstract</b></button>
-      <button class="pdfLink" onclick="window.open('pdf/DRO_RP_Costa_Kwon.pdf','_blank')"><b>PDF</b></button>
+<ul>
+<!-- DRO RP -->
+<li><p>Costa, G. and Kwon, R. H. (2020). Data-driven distributionally robust risk parity portfolio optimization. <i>Optimization Methods and Software</i>. Forthcoming.</p>
 
-      <div class="accordion-group">
-        <!-- ABSTRACT -->
-          <div class="collapse indent" id="DRRP">
-              <pcoll>We propose a distributionally robust formulation of the traditional risk parity portfolio optimization problem. Distributional robustness is introduced by targeting the discrete probabilities attached to each observation used during parameter estimation. Instead of assuming that all observations are equally likely, we consider an ambiguity set that provides us with the flexibility to find the most adversarial probability distribution based on the investor's confidence level. This allows us to derive robust estimates to parametrize the distribution of asset returns without having to impose any particular structure on the data. The resulting distributionally robust optimization problem is a constrained convex--concave minimax problem. Our approach is financially meaningful and attempts to attain full risk diversification with respect to the worst-case instance of the portfolio risk measure. We propose a novel algorithmic approach to solve this minimax problem, which blends projected gradient ascent with sequential convex programming. By design, this algorithm is highly flexible and allows the user to choose among alternative statistical distance measures to define the ambiguity set. Moreover, the algorithm is highly tractable and scalable. Our numerical experiments suggest that a distributionally robust risk parity portfolio can yield a higher risk-adjusted rate of return when compared against the nominal portfolio.</pcoll>
+<div id="myGroup_7">
+<button class="dropdown" data-toggle="collapse" data-target="#DRRP" data-parent="#myGroup_7"><b>Abstract</b></button>
+<button class="pdfLink" onclick="window.open('pdf/DRO_RP_Costa_Kwon.pdf','_blank')"><b>PDF</b></button>
+
+<div class="accordion-group">
+  <!-- ABSTRACT -->
+    <div class="collapse indent" id="DRRP">
+        <pcoll>We propose a distributionally robust formulation of the traditional risk parity portfolio optimization problem. Distributional robustness is introduced by targeting the discrete probabilities attached to each observation used during parameter estimation. Instead of assuming that all observations are equally likely, we consider an ambiguity set that provides us with the flexibility to find the most adversarial probability distribution based on the investor's confidence level. This allows us to derive robust estimates to parametrize the distribution of asset returns without having to impose any particular structure on the data. The resulting distributionally robust optimization problem is a constrained convex--concave minimax problem. Our approach is financially meaningful and attempts to attain full risk diversification with respect to the worst-case instance of the portfolio risk measure. We propose a novel algorithmic approach to solve this minimax problem, which blends projected gradient ascent with sequential convex programming. By design, this algorithm is highly flexible and allows the user to choose among alternative statistical distance measures to define the ambiguity set. Moreover, the algorithm is highly tractable and scalable. Our numerical experiments suggest that a distributionally robust risk parity portfolio can yield a higher risk-adjusted rate of return when compared against the nominal portfolio.</pcoll>
+      </div>
+    </div>
 </div>
 
-           <!-- Robust RP -->
-          <li><p>Costa, G. and Kwon, R. H. (2020). <a href="https://link.springer.com/article/10.1057%2Fs41260-020-00179-w" target="_blank">A robust framework for risk parity portfolios</a>. <i>Journal of Asset Management</i>, doi:10.1057/s41260-020-00179-w.</p>
+   </li>
+   <p style="margin-bottom: 1.5em"> </p>
 
-            <div id="myGroup_6">
-            <button class="dropdown" data-toggle="collapse" data-target="#RobRP" data-parent="#myGroup_6"><b>Abstract</b></button>
-            <button class="pdfLink" onclick="window.open('pdf/Robust_RP_Costa_Kwon.pdf','_blank')"><b>PDF</b></button>
-                 <div class="accordion-group">
-            <!-- ABSTRACT -->
-            <div class="collapse indent" id="RobRP">
-              <pcoll>We propose a robust formulation of the traditional risk parity problem by introducing an uncertainty structure specifically tailored to capture the intricacies of risk parity. Typical minimum variance portfolios attempt to introduce robustness by computing the worst-case estimate of the risk measure, which is not intuitive for risk parity. Instead, our motivation is to shield the risk parity portfolio against noise in the estimated asset risk contributions. Thus, we present a novel robust risk parity model that introduces robustness around both the overall portfolio risk and the assets’ marginal risk contributions. The proposed robust model is highly tractable and is able to retain the same level of complexity as the original problem. We provide a general procedure by which to create an uncertainty structure around the asset covariance matrix. We quantify this uncertainty as a perturbation on the nominal covariance estimate, which allows us to intuitively embed robustness during optimization. We then propose a specific procedure to construct a robust risk parity portfolio through a factor model of asset returns. Computational experiments show that the robust formulation yields a higher risk-adjusted rate of return than the nominal model while maintaining a sufficiently risk-diverse portfolio.</pcoll>
+<!-- Robust RP -->
+<li><p>Costa, G. and Kwon, R. H. (2020). <a href="https://link.springer.com/article/10.1057%2Fs41260-020-00179-w" target="_blank">A robust framework for risk parity portfolios</a>. <i>Journal of Asset Management</i>, doi:10.1057/s41260-020-00179-w.</p>
+
+<div id="myGroup_6">
+<button class="dropdown" data-toggle="collapse" data-target="#RobRP" data-parent="#myGroup_6"><b>Abstract</b></button>
+<button class="pdfLink" onclick="window.open('pdf/Robust_RP_Costa_Kwon.pdf','_blank')"><b>PDF</b></button>
+
+<div class="accordion-group">
+  <!-- ABSTRACT -->
+    <div class="collapse indent" id="RobRP">
+        <pcoll>We propose a robust formulation of the traditional risk parity problem by introducing an uncertainty structure specifically tailored to capture the intricacies of risk parity. Typical minimum variance portfolios attempt to introduce robustness by computing the worst-case estimate of the risk measure, which is not intuitive for risk parity. Instead, our motivation is to shield the risk parity portfolio against noise in the estimated asset risk contributions. Thus, we present a novel robust risk parity model that introduces robustness around both the overall portfolio risk and the assets’ marginal risk contributions. The proposed robust model is highly tractable and is able to retain the same level of complexity as the original problem. We provide a general procedure by which to create an uncertainty structure around the asset covariance matrix. We quantify this uncertainty as a perturbation on the nominal covariance estimate, which allows us to intuitively embed robustness during optimization. We then propose a specific procedure to construct a robust risk parity portfolio through a factor model of asset returns. Computational experiments show that the robust formulation yields a higher risk-adjusted rate of return than the nominal model while maintaining a sufficiently risk-diverse portfolio.</pcoll>
             </div>
          </div>
     </div>
