@@ -69,9 +69,9 @@
         
         <img src="images/GCostaPic.png" alt="GCosta Profile Pic" class="center">
         <p class=picText1>Giorgio Costa</p>
-        <p class=picText2>PhD in Industrial Engineering
-            <br>Department of Mechanical and Industrial Engineering
-            <br>University of Toronto
+        <p class=picText2>NSERC Postdoctoral Research Fellow
+            <br>Department of Industrial Engineering and Operations Research
+            <br>CColumbia University
         </p>
         
         <p style = "margin-bottom: 15px"> </p>
@@ -83,7 +83,7 @@
         <a id="img-googSch" href="https://scholar.google.ca/citations?user=Os7NTjMAAAAJ&hl=en&oi=sra" target="_blank"> <img style="width:33px;height:33px;vertical-align:middle" alt="GoogleScholarLogo" src="images/GoogleScholar.png">
         </a>
         &nbsp;
-        <a id="img-envelope" href="mailto:gcosta@mie.utoronto.ca"> <img style="width:35px;height:25px;vertical-align:middle" alt="Envelope" src="images/mail.png">
+        <a id="img-envelope" href="mailto:gc2958@ccolumbia.edu"> <img style="width:35px;height:25px;vertical-align:middle" alt="Envelope" src="images/mail.png">
         </a>
       </div>
     
@@ -91,11 +91,11 @@
       <div class="col-sm-8">
         
         <h1 class="g1">About Me</h1>
-        <p>I recently completed my PhD degree at the <a href="https://www.mie.utoronto.ca/" target="_blank">Department of Mechanical and Industrial Engineering</a>  at the University of Toronto. My academic advisor is <a href="http://www.mie.utoronto.ca/faculty/rkwon" target="_blank">Roy H. Kwon</a>, and my research is focused on mathematical optimization and its applications in finance.</p>
+        <p>I am a Postdoctoral Research Fellow in the <a href="https://www.ieor.columbia.edu">Department of Industrial Engineering and Operations Research</a> at Columbia University working under the supervision of <a href="http://www.columbia.edu/~gi10/">Garud N. Iyengar</a>. My research sits at the intersection of machine learning and robust optimization theory, and their application to solve problems in the financial industry.</p>
         
-        <p> I am an experienced quantitative researcher with a demonstrated track record in the financial industry working as a Senior Risk Analyst at the <a href="https://www.td.com/about-tdbfg/our-business/index.jsp" target="_blank">Toronto-Dominion Bank</a>. In this capacity, I developed risk management models to measure risk in equity markets. I also serve as a lecturer at the University of Toronto, teaching courses in financial engineering and mathematical optimization.</p>
+        <p> I am an experienced quantitative researcher with a demonstrated track record in the financial industry working as a Quantitative Investments Researcher at <a href="https://www.rbcgam.com/en/ca/">RBC Global Asset Management</a>. During my time at RBC I developed data-driven portfolio construction models, implemented statistical tools, and evaluated the performance of existing investment strategies. In addition, I previously worked as a Senior Risk Analyst at the <a href="https://www.td.com/about-tdbfg/our-business/index.jsp" target="_blank">Toronto-Dominion Bank</a>. In this capacity, I developed risk management models to measure risk in equity markets.</p>
         
-        <p>Before coming to the University of Toronto, I worked as an engineer at <a href="https://www.woodplc.com" target="_blank">Wood plc</a> in the Mining and Metals division. I completed my undergraduate degree (B. Eng. Hons.) in Mechanical Engineering at McGill University. You can read my resume <a href="pdf/gcostaResume.pdf" target="_blank">here</a>.</p>
+        <p>I completed my PhD degree at the <a href="https://www.mie.utoronto.ca/" target="_blank">Department of Mechanical and Industrial Engineering</a>  at the University of Toronto. My academic advisor is <a href="http://www.mie.utoronto.ca/faculty/rkwon" target="_blank">Roy H. Kwon</a>. In the past, I worked as an engineer at <a href="https://www.woodplc.com" target="_blank">Wood plc</a> in the Mining and Metals division. I completed my undergraduate degree (B. Eng. Hons.) in Mechanical Engineering at McGill University. You can find a copy of my resume <a href="pdf/gcostaResume.pdf" target="_blank">here</a>.</p>
         
         <p style="margin-bottom: 25px"> </p>
         
@@ -150,6 +150,18 @@
       <h1 class="g2">Journal publications</h1>
       
       <ul>
+        <!-- DRO RP -->
+        <li><p>Costa, G. and Kwon, R. H. (2020). Data-driven distributionally robust risk parity portfolio optimization. <i>Optimization Methods and Software</i>. Forthcoming.</p>
+
+          <div id="myGroup_7">
+      <button class="dropdown" data-toggle="collapse" data-target="#DRRP" data-parent="#myGroup_7"><b>Abstract</b></button>
+      <button class="pdfLink" onclick="window.open('pdf/DRO_RP_Costa_Kwon.pdf','_blank')"><b>PDF</b></button>
+
+      <div class="accordion-group">
+        <!-- ABSTRACT -->
+          <div class="collapse indent" id="DRRP">
+              <pcoll>We propose a distributionally robust formulation of the traditional risk parity portfolio optimization problem. Distributional robustness is introduced by targeting the discrete probabilities attached to each observation used during parameter estimation. Instead of assuming that all observations are equally likely, we consider an ambiguity set that provides us with the flexibility to find the most adversarial probability distribution based on the investor's confidence level. This allows us to derive robust estimates to parametrize the distribution of asset returns without having to impose any particular structure on the data. The resulting distributionally robust optimization problem is a constrained convex--concave minimax problem. Our approach is financially meaningful and attempts to attain full risk diversification with respect to the worst-case instance of the portfolio risk measure. We propose a novel algorithmic approach to solve this minimax problem, which blends projected gradient ascent with sequential convex programming. By design, this algorithm is highly flexible and allows the user to choose among alternative statistical distance measures to define the ambiguity set. Moreover, the algorithm is highly tractable and scalable. Our numerical experiments suggest that a distributionally robust risk parity portfolio can yield a higher risk-adjusted rate of return when compared against the nominal portfolio.</pcoll>
+</div>
 
            <!-- Robust RP -->
           <li><p>Costa, G. and Kwon, R. H. (2020). <a href="https://link.springer.com/article/10.1057%2Fs41260-020-00179-w" target="_blank">A robust framework for risk parity portfolios</a>. <i>Journal of Asset Management</i>, doi:10.1057/s41260-020-00179-w.</p>
@@ -168,7 +180,7 @@
         </li>
         <p style="margin-bottom: 1.5em"> </p>
 
-            <!-- Generalized RP -->
+          <!-- Generalized RP -->
           <li><p>Costa,  G.  and  Kwon,  R.  H.  (2020). <a href="https://link.springer.com/article/10.1007/s10898-020-00915-x?wt_mc=Internal.Event.1.SEM.ArticleAuthorOnlineFirst" target="_blank">Generalized risk parity portfolio optimization: An ADMM approach</a>. <i>Journal of Global Optimization</i>, doi:10.1007/s10898-020-00915-x.</p>
 
             <div id="myGroup_5">
@@ -242,7 +254,7 @@
 
           <div id="myGroup_4">
     <button class="dropdown" data-toggle="collapse" data-target="#PaidoussisPaper" data-parent="#myGroup_4"><b>Abstract</b></button>
-  
+    <button class="pdfLink" onclick="window.open('pdf/Dynamics_of_a_Pipe_Conveying_Fluid_Kheiri_Paidoussis_Costa_Amabili.pdf','_blank')"><b>PDF</b></button>
     <div class="accordion-group">
         <div class="collapse indent" id="PaidoussisPaper">
           <!-- ABSTRACT -->
@@ -256,23 +268,23 @@
         
       </ul>
       
-      <p style="margin-bottom: 2em"> </p>
+      <!-- <p style="margin-bottom: 2em"> </p> -->
       <!------------------------------------------------------------->
       <!-- Preprints -->
       <!------------------------------------------------------------->
-      <h1 class="g2">Preprints</h1>
+      <!-- <h1 class="g2">Preprints</h1> -->
 
-      <ul>
+      <!-- <ul> -->
         <!-- DRO RP -->
-        <li><p>Costa, G. and Kwon, R. H. (2020). Data-driven distributionally robust risk parity portfolio optimization. Manuscript submitted for publication.</p>
+        <!-- <li><p>Costa, G. and Kwon, R. H. (2020). Data-driven distributionally robust risk parity portfolio optimization. Manuscript submitted for publication.</p>
 
           <div id="myGroup_7">
     <button class="dropdown" data-toggle="collapse" data-target="#DRRP" data-parent="#myGroup_7"><b>Abstract</b></button>
    <button class="pdfLink" onclick="window.open('pdf/DRO_RP_Costa_Kwon.pdf','_blank')"><b>PDF</b></button>
 
-      <div class="accordion-group">
+      <div class="accordion-group"> -->
         <!-- ABSTRACT -->
-          <div class="collapse indent" id="DRRP">
+          <!-- <div class="collapse indent" id="DRRP">
               <pcoll>We propose a distributionally robust formulation of the traditional risk parity portfolio optimization problem. Distributional robustness is introduced by targeting the discrete probabilities attached to each observation used during parameter estimation. Instead of assuming that all observations are equally likely, we consider an ambiguity set that provides us with the flexibility to find the most adversarial probability distribution based on the investor's confidence level. This allows us to derive robust estimates to parametrize the distribution of asset returns without having to impose any particular structure on the data. The resulting distributionally robust optimization problem is a constrained convex--concave minimax problem. Our approach is financially meaningful and attempts to attain full risk diversification with respect to the worst-case instance of the portfolio risk measure. We propose a novel algorithmic approach to solve this minimax problem, which blends projected gradient ascent with sequential convex programming. By design, this algorithm is highly flexible and allows the user to choose among alternative statistical distance measures to define the ambiguity set. Moreover, the algorithm is highly tractable and scalable. Our numerical experiments suggest that a distributionally robust risk parity portfolio can yield a higher risk-adjusted rate of return when compared against the nominal portfolio.</pcoll>
 </div>
       </div>
@@ -281,7 +293,7 @@
         </li>
         <p style="margin-bottom: 1.5em"> </p>
 
-      </ul>
+      </ul> -->
 
         <p style="margin-bottom: 2em"> </p>
       <!------------------------------------------------------------->
@@ -486,7 +498,7 @@
         <p style="margin-bottom: 1.5em"> </p>
 <!--      <div>-->
         <img style="width:35px;height:25px;vertical-align:middle" alt="Envelope" src="images/mail.png">
-        <span>&nbsp; <a class="s1"href="mailto:gcosta@mie.utoronto.ca">gcosta@mie.utoronto.ca</a></span>
+        <span>&nbsp; <a class="s1"href="mailto:gc2958@ccolumbia.edu">gc2958@ccolumbia.edu</a></span>
 <!--      </div>-->
       
       <p style="margin-bottom: 25px"> </p>
@@ -494,9 +506,8 @@
 <!--      <div>-->
         <img style="width:30px;height:30px;vertical-align:top" alt="Geotag" src="images/address.png">
         <span class="s1">
-          <div style="display:inline-block;"> 5 King's College Road,
-              <br>Toronto, ON, Canada
-              <br>M5S 3G8
+          <div style="display:inline-block;"> 500 W 120th St #315,
+              <br>New York, NY 10027
           </div>
         </span>
 <!--      </div>-->
