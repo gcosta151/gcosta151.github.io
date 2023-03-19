@@ -90,11 +90,22 @@
       <div class="col-sm-8">
         
         <h1 class="g1">About Me</h1>
-        <p>I am a Postdoctoral Research Fellow in the <a href="https://www.ieor.columbia.edu">Department of Industrial Engineering and Operations Research</a> at Columbia University working under the supervision of <a href="http://www.columbia.edu/~gi10/">Garud N. Iyengar</a>. My research sits at the intersection of machine learning and robust optimization theory, and their application to solve problems in the financial industry.</p>
+        <p>I am a Quantitative Researcher at <a href="https://www.mlp.com/">Millennium Management</a>, where I engage 
+          in risk modeling and portfolio optimization.</p>
+          
+        <p>Previously, I was a Postdoctoral Research Scientist in the 
+          <a href="https://www.ieor.columbia.edu">Department of Industrial Engineering and Operations Research</a> 
+          at Columbia University working under the supervision of <a href="http://www.columbia.edu/~gi10/">Garud N. Iyengar</a>. 
+          My research sits at the intersection of machine learning and robust optimization theory, and their 
+          application to solve problems in the financial industry. I also used to work at <a href="https://www.rbcgam.com/en/ca/">RBC Global 
+          Asset Management</a> as a Quantitative Investments Researcher. During my time at RBC I developed 
+          data-driven portfolio construction models, implemented statistical tools, and evaluated the performance of 
+          existing investment strategies.</p>
         
-        <p> I am an experienced quantitative researcher with a demonstrated track record in the financial industry working as a Quantitative Investments Researcher at <a href="https://www.rbcgam.com/en/ca/">RBC Global Asset Management</a>. During my time at RBC I developed data-driven portfolio construction models, implemented statistical tools, and evaluated the performance of existing investment strategies. In addition, I previously worked as a Senior Risk Analyst at the <a href="https://www.td.com/about-tdbfg/our-business/index.jsp" target="_blank">Toronto-Dominion Bank</a>. In this capacity, I developed risk management models to measure risk in equity markets.</p>
-        
-        <p>I completed my PhD degree at the <a href="https://www.mie.utoronto.ca/" target="_blank">Department of Mechanical and Industrial Engineering</a>  at the University of Toronto. My academic advisor is <a href="http://www.mie.utoronto.ca/faculty/rkwon" target="_blank">Roy H. Kwon</a>. In the past, I worked as an engineer at <a href="https://www.woodplc.com" target="_blank">Wood plc</a> in the Mining and Metals division. I completed my undergraduate degree (B. Eng. Hons.) in Mechanical Engineering at McGill University. You can find a copy of my CV <a href="pdf/gcostaCV.pdf" target="_blank">here</a>.</p>
+        <p>I completed my PhD degree at the <a href="https://www.mie.utoronto.ca/" target="_blank">Department 
+          of Mechanical and Industrial Engineering</a>  at the University of Toronto under the supervision of 
+          <a href="http://www.mie.utoronto.ca/faculty/rkwon" target="_blank">Roy H. Kwon</a>. I completed my 
+          undergraduate degree (B. Eng. Hons.) in Mechanical Engineering at McGill University.</p>
         
         <p style="margin-bottom: 25px"> </p>
         
@@ -150,7 +161,44 @@
 
 <ul>
 <!-- DRO RP -->
-<li><p>Costa, G. and Kwon, R. H. (2020). Data-driven distributionally robust risk parity portfolio optimization. <i>Optimization Methods and Software</i>. Forthcoming.</p>
+<li><p>Costa, G. and Iyengar, G. N. (2023). 
+  Distributionally Robust End-to-End Portfolio Construction. 
+  <i>Arxiv preprint,</i>
+  37(5), 1876-1911.</p>
+
+  <div id="myGroup_7">
+  <button class="dropdown" data-toggle="collapse" data-target="#DRRP" data-parent="#myGroup_7"><b>Abstract</b></button>
+  <button class="pdfLink" onclick="window.location.href='https://arxiv.org/pdf/2206.05134.pdf';"><b>PDF</b></button>
+  
+  <div class="accordion-group">
+    <!-- ABSTRACT -->
+      <div class="collapse indent" id="DRRP">
+          <pcoll>We propose an end-to-end distributionally robust system for portfolio construction 
+            that integrates the asset return prediction model with a distributionally robust portfolio 
+            optimization model. We also show how to learn the risktolerance parameter and the degree 
+            of robustness directly from data. End-to-end systems have an advantage in that information 
+            can be communicated between the prediction and decision layers during training, allowing the
+            parameters to be trained for the final task rather than solely for predictive performance. 
+            However, existing end-toend systems are not able to quantify and correct for the impact of 
+            model risk on the decision layer. Our proposed distributionally robust end-to-end portfolio 
+            selection system explicitly accounts for the impact of model risk. The decision layer chooses 
+            portfolios by solving a minimax problem where the distribution of the asset returns is assumed
+            to belong to an ambiguity set centered around a nominal distribution. Using convex duality, 
+            we recast the minimax problem in a form that allows for efficient training of the end-to-end 
+            system.</pcoll>
+        </div>
+      </div>
+  </div>
+  
+     </li>
+     <p style="margin-bottom: 1.5em"> </p>
+
+<!-- DRO RP -->
+<li><p>Costa, G. and Kwon, R. H. (2022). 
+  <a href="https://www.tandfonline.com/doi/abs/10.1080/10556788.2021.2022143" target="_blank">
+    Data-driven distributionally robust risk parity portfolio optimization</a>. 
+    <i>Optimization Methods and Software,</i>
+    37(5), 1876-1911.</p>
 
 <div id="myGroup_7">
 <button class="dropdown" data-toggle="collapse" data-target="#DRRP" data-parent="#myGroup_7"><b>Abstract</b></button>
@@ -159,7 +207,22 @@
 <div class="accordion-group">
   <!-- ABSTRACT -->
     <div class="collapse indent" id="DRRP">
-        <pcoll>We propose a distributionally robust formulation of the traditional risk parity portfolio optimization problem. Distributional robustness is introduced by targeting the discrete probabilities attached to each observation used during parameter estimation. Instead of assuming that all observations are equally likely, we consider an ambiguity set that provides us with the flexibility to find the most adversarial probability distribution based on the investor's confidence level. This allows us to derive robust estimates to parametrize the distribution of asset returns without having to impose any particular structure on the data. The resulting distributionally robust optimization problem is a constrained convex--concave minimax problem. Our approach is financially meaningful and attempts to attain full risk diversification with respect to the worst-case instance of the portfolio risk measure. We propose a novel algorithmic approach to solve this minimax problem, which blends projected gradient ascent with sequential convex programming. By design, this algorithm is highly flexible and allows the user to choose among alternative statistical distance measures to define the ambiguity set. Moreover, the algorithm is highly tractable and scalable. Our numerical experiments suggest that a distributionally robust risk parity portfolio can yield a higher risk-adjusted rate of return when compared against the nominal portfolio.</pcoll>
+        <pcoll>We propose a distributionally robust formulation of the traditional risk parity portfolio 
+          optimization problem. Distributional robustness is introduced by targeting the discrete 
+          probabilities attached to each observation used during parameter estimation. Instead of assuming 
+          that all observations are equally likely, we consider an ambiguity set that provides us with the 
+          flexibility to find the most adversarial probability distribution based on the investor's confidence 
+          level. This allows us to derive robust estimates to parametrize the distribution of asset returns 
+          without having to impose any particular structure on the data. The resulting distributionally 
+          robust optimization problem is a constrained convex--concave minimax problem. Our approach is 
+          financially meaningful and attempts to attain full risk diversification with respect to the 
+          worst-case instance of the portfolio risk measure. We propose a novel algorithmic approach to 
+          solve this minimax problem, which blends projected gradient ascent with sequential convex 
+          programming. By design, this algorithm is highly flexible and allows the user to choose among 
+          alternative statistical distance measures to define the ambiguity set. Moreover, the algorithm is 
+          highly tractable and scalable. Our numerical experiments suggest that a distributionally robust 
+          risk parity portfolio can yield a higher risk-adjusted rate of return when compared against the 
+          nominal portfolio.</pcoll>
       </div>
     </div>
 </div>
@@ -168,7 +231,11 @@
    <p style="margin-bottom: 1.5em"> </p>
 
 <!-- Robust RP -->
-<li><p>Costa, G. and Kwon, R. H. (2020). <a href="https://link.springer.com/article/10.1057%2Fs41260-020-00179-w" target="_blank">A robust framework for risk parity portfolios</a>. <i>Journal of Asset Management</i>, doi:10.1057/s41260-020-00179-w.</p>
+<li><p>Costa, G. and Kwon, R. H. (2020). 
+  <a href="https://link.springer.com/article/10.1057%2Fs41260-020-00179-w" target="_blank">
+    A robust framework for risk parity portfolios</a>. 
+    <i>Journal of Asset Management,</i>
+    21 (5), 447-466.</p>
 
 <div id="myGroup_6">
 <button class="dropdown" data-toggle="collapse" data-target="#RobRP" data-parent="#myGroup_6"><b>Abstract</b></button>
@@ -177,7 +244,20 @@
 <div class="accordion-group">
   <!-- ABSTRACT -->
     <div class="collapse indent" id="RobRP">
-        <pcoll>We propose a robust formulation of the traditional risk parity problem by introducing an uncertainty structure specifically tailored to capture the intricacies of risk parity. Typical minimum variance portfolios attempt to introduce robustness by computing the worst-case estimate of the risk measure, which is not intuitive for risk parity. Instead, our motivation is to shield the risk parity portfolio against noise in the estimated asset risk contributions. Thus, we present a novel robust risk parity model that introduces robustness around both the overall portfolio risk and the assets’ marginal risk contributions. The proposed robust model is highly tractable and is able to retain the same level of complexity as the original problem. We provide a general procedure by which to create an uncertainty structure around the asset covariance matrix. We quantify this uncertainty as a perturbation on the nominal covariance estimate, which allows us to intuitively embed robustness during optimization. We then propose a specific procedure to construct a robust risk parity portfolio through a factor model of asset returns. Computational experiments show that the robust formulation yields a higher risk-adjusted rate of return than the nominal model while maintaining a sufficiently risk-diverse portfolio.</pcoll>
+        <pcoll>We propose a robust formulation of the traditional risk parity problem by introducing an 
+          uncertainty structure specifically tailored to capture the intricacies of risk parity. Typical 
+          minimum variance portfolios attempt to introduce robustness by computing the worst-case estimate 
+          of the risk measure, which is not intuitive for risk parity. Instead, our motivation is to 
+          shield the risk parity portfolio against noise in the estimated asset risk contributions. 
+          Thus, we present a novel robust risk parity model that introduces robustness around both the 
+          overall portfolio risk and the assets’ marginal risk contributions. The proposed robust model 
+          is highly tractable and is able to retain the same level of complexity as the original problem. 
+          We provide a general procedure by which to create an uncertainty structure around the asset 
+          covariance matrix. We quantify this uncertainty as a perturbation on the nominal covariance 
+          estimate, which allows us to intuitively embed robustness during optimization. We then propose 
+          a specific procedure to construct a robust risk parity portfolio through a factor model of asset 
+          returns. Computational experiments show that the robust formulation yields a higher risk-adjusted 
+          rate of return than the nominal model while maintaining a sufficiently risk-diverse portfolio.</pcoll>
             </div>
          </div>
     </div>
@@ -186,7 +266,11 @@
         <p style="margin-bottom: 1.5em"> </p>
 
           <!-- Generalized RP -->
-          <li><p>Costa,  G.  and  Kwon,  R.  H.  (2020). <a href="https://link.springer.com/article/10.1007/s10898-020-00915-x?wt_mc=Internal.Event.1.SEM.ArticleAuthorOnlineFirst" target="_blank">Generalized risk parity portfolio optimization: An ADMM approach</a>. <i>Journal of Global Optimization</i>, doi:10.1007/s10898-020-00915-x.</p>
+          <li><p>Costa, G. and Kwon, R. H. (2020). 
+            <a href="https://link.springer.com/article/10.1007/s10898-020-00915-x?wt_mc=Internal.Event.1.SEM.ArticleAuthorOnlineFirst" target="_blank">
+              Generalized risk parity portfolio optimization: An ADMM approach</a>. 
+              <i>Journal of Global Optimization,</i> 
+              78, 207-238.</p>
 
             <div id="myGroup_5">
             <button class="dropdown" data-toggle="collapse" data-target="#GenRP" data-parent="#myGroup_5"><b>Abstract</b></button>
@@ -194,7 +278,23 @@
                 <div class="accordion-group">
             <!-- ABSTRACT -->
             <div class="collapse indent" id="GenRP">
-              <pcoll>The risk parity solution to the asset allocation problem yields portfolios where the risk contribution from each asset is made equal. We consider a generalized approach to this problem. First, we set an objective that seeks to maximize the portfolio expected return while minimizing portfolio risk. Second, we relax the risk parity condition and instead bound the risk dispersion of the constituents within a predefined limit. This allows an investor to prescribe a desired risk dispersion range, yielding a portfolio with an optimal risk–return profile that is still well-diversified from a risk-based standpoint. We add robustness to our framework by introducing an ellipsoidal uncertainty structure around our estimated asset expected returns to mitigate estimation error. Our proposed framework does not impose any restrictions on short selling. A limitation of risk parity is that allowing of short sales leads to a non-convex problem. However, we propose an approach that relaxes our generalized risk parity model into a convex semidefinite program. We proceed to tighten this relaxation sequentially through the alternating direction method of multipliers. This procedure iterates between the convex optimization problem and the non-convex problem with a rank constraint. In addition, we can exploit this structure to solve the non-convex problem analytically and efficiently during every iteration. Numerical results suggest that this algorithm converges to a higher quality optimal solution when compared to the competing non-convex problem, and can also yield a higher ex post risk-adjusted rate of return.</pcoll>
+              <pcoll>The risk parity solution to the asset allocation problem yields portfolios where the risk 
+                contribution from each asset is made equal. We consider a generalized approach to this problem. 
+                First, we set an objective that seeks to maximize the portfolio expected return while minimizing 
+                portfolio risk. Second, we relax the risk parity condition and instead bound the risk dispersion 
+                of the constituents within a predefined limit. This allows an investor to prescribe a desired 
+                risk dispersion range, yielding a portfolio with an optimal risk–return profile that is still 
+                well-diversified from a risk-based standpoint. We add robustness to our framework by introducing 
+                an ellipsoidal uncertainty structure around our estimated asset expected returns to mitigate 
+                estimation error. Our proposed framework does not impose any restrictions on short selling. A 
+                limitation of risk parity is that allowing of short sales leads to a non-convex problem. However, 
+                we propose an approach that relaxes our generalized risk parity model into a convex semidefinite 
+                program. We proceed to tighten this relaxation sequentially through the alternating direction 
+                method of multipliers. This procedure iterates between the convex optimization problem and the 
+                non-convex problem with a rank constraint. In addition, we can exploit this structure to solve 
+                the non-convex problem analytically and efficiently during every iteration. Numerical results 
+                suggest that this algorithm converges to a higher quality optimal solution when compared to the 
+                competing non-convex problem, and can also yield a higher ex post risk-adjusted rate of return.</pcoll>
             </div>
       </div>
     </div>
@@ -202,7 +302,10 @@
           <p style="margin-bottom: 1.5em"> </p>
 
           <!-- RS MVO -->
-          <li><p>Costa, G. and Kwon, R. H. (2020). <a href="https://www.risk.net/journal-of-operational-risk/7535001/a-regime-switching-factor-model-for-mean-variance-optimization" target="_blank">A regime-switching factor model for  mean–variance  optimization</a>. <i>Journal of Risk</i>, 22(4), 31-59.</p>
+          <li><p>Costa, G. and Kwon, R. H. (2020). <a href="https://www.risk.net/journal-of-operational-risk/7535001/a-regime-switching-factor-model-for-mean-variance-optimization" target="_blank">
+            A regime-switching factor model for  mean–variance  optimization</a>. 
+            <i>Journal of Risk,</i> 
+            22(4), 31-59.</p>
 
           <div id="myGroup_1">
     <button class="dropdown" data-toggle="collapse" data-target="#RSMVO" data-parent="#myGroup_1"><b>Abstract</b></button>
@@ -211,8 +314,20 @@
       <div class="accordion-group">
         <!-- ABSTRACT -->
           <div class="collapse indent" id="RSMVO">
-              <pcoll>We formulate a novel Markov regime-switching factor model to describe the cyclical nature of asset returns in modern financial markets. Maintaining a factor model structure allows us to easily derive the asset expected returns and their corresponding covariance matrix. By design, these two parameters are calibrated to better describe the properties of the different market regimes. In turn, these regime-dependent parameters serve as the inputs during mean--variance optimization, thereby constructing portfolios adapted to the current market environment. Through this formulation, the proposed model allows for the construction of large, realistic portfolios at no additional computational cost during optimization. Moreover, the viability of this model can be significantly improved by periodically rebalancing the portfolio, ensuring proper alignment between the estimated parameters and the transient market regimes. An out-of-sample computational experiment over a long investment horizon shows that the proposed regime-dependent portfolios are better aligned with the market environment, yielding a higher ex-post rate of return and lower volatility, even when compared against competing portfolios.</pcoll>
-</div>
+              <pcoll>We formulate a novel Markov regime-switching factor model to describe the cyclical nature 
+                of asset returns in modern financial markets. Maintaining a factor model structure allows us 
+                to easily derive the asset expected returns and their corresponding covariance matrix. By 
+                design, these two parameters are calibrated to better describe the properties of the different 
+                market regimes. In turn, these regime-dependent parameters serve as the inputs during mean-variance 
+                optimization, thereby constructing portfolios adapted to the current market environment. Through 
+                this formulation, the proposed model allows for the construction of large, realistic portfolios 
+                at no additional computational cost during optimization. Moreover, the viability of this model 
+                can be significantly improved by periodically rebalancing the portfolio, ensuring proper alignment 
+                between the estimated parameters and the transient market regimes. An out-of-sample computational 
+                experiment over a long investment horizon shows that the proposed regime-dependent portfolios are 
+                better aligned with the market environment, yielding a higher ex-post rate of return and lower 
+                volatility, even when compared against competing portfolios.</pcoll>
+            </div>
       </div>
     </div>
           
